@@ -55,7 +55,7 @@ for(int i=1;i<=m;i++)
 
 }
 if(f)
-cout<<"DAG"<<"\n";
+cout<<"NOT DAG"<<"\n";
 else
 {
 while(!st.empty())
