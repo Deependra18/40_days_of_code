@@ -52,7 +52,7 @@ int main()
     cin>>x>>y;
     lld dp=dijiktra(x,y,n);
     if(dp==inf)
-    	cout<<"NO";
+    	cout<<"-1";
     else
     	cout<<dp;
 
